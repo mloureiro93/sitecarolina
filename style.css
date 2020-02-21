@@ -1,0 +1,291 @@
+ body {
+  display: flex;
+  flex-direction: column;
+  margin: 3em;
+  /* border: solid 3px orange; */
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff1cf;
+ 
+} 
+
+/* article{
+  font-family: 'Roboto', sans-serif;;
+} */
+
+header{
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 1em;
+  background-color:#263f44;
+  padding: 0.5em;
+  color:  #fff1cf;
+
+}
+
+
+nav{
+  background-color: #fff1cf;
+  }
+
+
+
+
+/* h2{
+  background-color: #fff1cf; 
+  width: 100vw;
+  text-align: center;
+  padding: 0.25em;
+} */
+
+
+ 
+
+footer{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.7em;
+  color: white;
+  background-color: #263f44;
+}
+ 
+.card{
+  border-radius: 0%;
+}
+
+.card-body {
+  transition: opacity 0.25s ease-in-out;
+}
+
+.card-img-top {
+  transition: transform 0.25s ease-in-out;
+  width: 100%;
+  height: 100%;
+
+}
+
+.card:hover .card-body {
+  opacity: 0.6;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.15);
+}
+
+#squares{
+  flex-wrap: wrap;
+  border-radius:0% }
+
+#About{
+  padding: 0%;
+}
+
+#About img{
+
+  width: 40%;
+  height: 40%;
+  
+}
+
+#About h2{
+   color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  top: 3.5em;
+  left: 11em;
+  }
+
+  @media (max-width: 768px) {
+    #About h2{
+      color: aliceblue;
+     font-size: 40px;
+     font-weight: 500;
+     position: absolute;
+     top: 5em;
+     left: 3.5em;
+     }
+    }
+     
+    #Research{
+      padding: 0%;
+    }
+    
+    #Research h2{
+      color: aliceblue;
+     font-size: 50px;
+     font-weight: 500;
+     position: absolute;
+     top: 3.5em;
+     left: 11em;
+     }
+
+     #Research article{
+       padding-right: 1em;
+       padding-left: 1em;
+     }
+
+     @media (max-width: 768px) {
+      #Research h2{
+        color: aliceblue;
+       font-size: 40px;
+       font-weight: 500;
+       position: absolute;
+       top: 4.5em;
+       left: 2.5em;
+       }
+      }
+   
+  #Awards{
+    padding: 0%;
+  }
+
+  #Awards article{
+    padding: 1em;
+  }
+
+  #Awards h2{
+     color: aliceblue;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    top: 3.5em;
+    left: 7em;
+
+  }
+
+  @media (max-width: 768px) {
+    #Awards h2{
+     color: aliceblue;
+     font-size: 40px;
+     font-weight: 500;
+     position: absolute;
+     top: 4.5em;
+     left: 1em;
+     }
+    }
+
+ #Publications{
+   padding: 0%;
+ }
+
+ #Publications article{
+  padding: 1em;
+}
+
+#Publications h3{
+  padding: 0.2em;
+}
+
+ #Publications h2{
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  top: 3.5em;
+  left: 9.5em;
+  
+
+ }
+    @media (max-width: 768px) {
+      #Publications h2{
+        color: aliceblue;
+       font-size: 35px;
+       font-weight: 500;
+       position: absolute;
+       top: 5em;
+       left: 2em;
+       }
+      }
+
+      #Teaching{
+        padding: 0%;
+      }
+
+      #Teaching article{
+        padding: 1em;
+      }
+     
+      #Teaching h2{
+       color: aliceblue;
+       font-size: 50px;
+       font-weight: 500;
+       position: absolute;
+       top: 3.5em;
+       left: 10.5em;
+     
+      }
+         @media (max-width: 768px) {
+           #Teaching h2{
+             color: aliceblue;
+            font-size: 40px;
+            font-weight: 500;
+            position: absolute;
+            top: 4.5em;
+            left: 2.5em;
+            }
+          }
+
+
+            #Off{
+              padding: 0%;
+            }
+
+            #Off article{
+              padding: 1em;
+            }
+           
+            #Off h2{
+             color: aliceblue;
+             font-size: 50px;
+             font-weight: 500;
+             position: absolute;
+             top: 3.5em;
+             left: 10.5em;
+           
+            }
+               @media (max-width: 768px) {
+                 #Off h2{
+                   color: aliceblue;
+                  font-size: 40px;
+                  font-weight: 500;
+                  position: absolute;
+                  top: 4.5em;
+                  left: 2em;
+                  }        
+                }
+  
+
+ #div-about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* margin: 2em;
+  background-color: teal;
+  padding-top: 2em;
+  padding-bottom: 2em; */
+  
+
+} 
+
+#About{
+  /* padding: 2em; */
+
+}
+
+title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  
+}
+
+#About img{
+  height: 40%;
+  width: 40%;
+}
+
+#particles-js{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(1,86,104,1) 68%, rgba(0,255,196,1) 100%);
+  height: 290px;
+  margin-bottom: 2em;
+}
